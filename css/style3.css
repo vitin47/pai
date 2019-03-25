@@ -1,0 +1,66 @@
+
+
+body{
+    background-color: #463939;
+    background-image: url(../img/harmony-fade-ombre-wallpaper-design-plain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.containerr{
+    position: fixed;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(53, 86, 227, 0.92);
+    width: 15%;
+    color: white;
+    margin-left: 45%;
+    margin-top: 10%;
+
+}
+#botao1{
+    width: 30%;
+  margin-left: 40%;
+}
+#botao2{
+    width: 20%;
+  margin-left: 40%;
+}
+.tudo{
+    background-color: #a7a2a2;
+    width: 100%;
+    height: 20px;
+}
+.tudo2{
+
+    background-color: rgba(189, 226, 239, 0.88);
+
+    width: 100%;
+    height: 20px;
+}
+.texto{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn1{
+    margin-top: 5%;
+    margin-left:25%;
+    width: 50%;
+    height: 50px;
+    border:none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #167221;
+    border-radius: 5px;
+    background-color: #1f881f;
+}
+.alert{
+    border-radius: 2px;
+    border:none;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #ff0000;
+    width: 100%;
+    background-color: rgba(226, 15, 15, 0.64);
+}

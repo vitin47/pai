@@ -1,0 +1,52 @@
+*{
+	margin:0;
+}
+body{
+    background-image: url("img/black-background_00313351.jpg");
+}
+#botao_carrinho{
+	color:white;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	text-align: center;
+	width: 80%;
+	border:none;
+	border-radius: 5px;
+	height: 50px;
+	background-color: rgba(32, 125, 234, 0.92);
+    font-size: 75%;
+}
+.footer{
+	height: 35px;
+	text-align: center;
+	border-top:1px solid;
+	border-color: #7b7b7b;
+
+}.cartao{
+    width: 105%;
+    background-color: rgba(235, 235, 235, 0.92);
+    border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border:1px solid;
+	border-color: #7b7b7b;
+}.textp{
+	font-family: arial;
+	font-size: 19px;
+	color:rgba(108, 104, 104, 0.86);
+}
+.butaum{
+	color: white;
+	border-radius: 5px;
+	width: 50%;
+	background-color: blue;
+}
+.tabela{	
+    
+    margin-bottom: 10%;
+	width: 100%;
+	background-color: rgba(248, 0, 0, 0);
+
+}
+

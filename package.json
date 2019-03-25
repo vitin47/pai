@@ -1,0 +1,23 @@
+{
+  "name": "s",
+  "version": "1.0.0",
+  "description": "ew",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "s"
+  },
+  "keywords": [
+    "s"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
