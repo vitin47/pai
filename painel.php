@@ -29,10 +29,8 @@ $nome =$_SESSION['nome'];
   
  
   <nav class="navbar navbar-expand-lg navbar-light "style="background-color: #cce2d3;">
-    <a class="navbar-brand" href="home.php">
-      <img src="img/97d4253d79a9e59f19df904136673fc9---cone-de-flor-de-orqu--dea-by-vexels.png" width="30" height="30" alt="">
-    </a>
-    <a class="navbar-brand" href="home.php">Nilton Orquídeas</a>
+    
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,7 +46,10 @@ $nome =$_SESSION['nome'];
        
         <li class="nav-item">
           <a class="nav-link h5 mb-0" href="#"><i class="fas fa-user-circle"></i><?php
-          echo " Olá $nome"?></a>
+          echo " Olá ADM $nome"?></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5 mb-0" href="inserir.php"><i class="fas fa-arrow-alt-circle-up"></i> Inserir</a>
         </li>
         <li class="nav-item">
           <a class="nav-link h5 mb-0" href="logout.php"><i class="fas fa-sign-out-alt"></i>Deslogar</a>
@@ -64,74 +65,13 @@ $nome =$_SESSION['nome'];
   </nav>
   
   
-  <div class="carouselSite">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="20000">
-          <img src="img/SDA.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-interval="10000">
-          <img src="img/SSDA.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-interval="10000">
-          <img src="img/1231.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>sdaaaaaaaaasus magna, vel scelerisque nisl consectetur.</p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-  
-  
-  <div class="tudap">
-    <div class="diev">
-      <div class="row">
-        <div class="col-md-5">
-          
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive embed-responsive-16by9"src="https://www.youtube.com/embed/nuyO6zMSNwQ?start=9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <p>aaaaa</p>
-        </div>
-        
-        
-        
-        
-      </div>
-    </div>
-  </div>
-  
 
   
   
-  <div class="footer">
-    DIREITOS RESERVADOS
-  </div>
+  
+  
+  
+ 
   
   
   

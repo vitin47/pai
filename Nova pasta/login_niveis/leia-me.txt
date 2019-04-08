@@ -1,0 +1,9 @@
+Requisitos mínimos:
+PHP 5.x
+MySQL 4.1.x
+
+O arquivo init.php contém a definição de constantes para ocnexão com bancos de dados, conexão com SMTP, diretórios, etc. Essas constantes são definidas na linha 61.
+
+O arquivo config.sql contém os códigos para a modelagem do banco de dados. O usuário "admin" é o administrador geral do sistema e utiliza a senha "123", codificada em hash MD5.
+
+O sistema utiliza URL's amigáveis e a extensão MySQLi, disponível apenas a partir do PHP 5.0.

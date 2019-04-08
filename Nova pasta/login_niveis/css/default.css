@@ -1,0 +1,105 @@
+body{
+	margin: 5px;
+	font-size: 12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #000;
+	background: #ccc;
+}
+h1{
+	font-size: 23px;
+}
+h2{
+	font-size: 18px;
+}
+h3{
+	font-size: 14px;
+}
+a img{
+	border: 0;
+}
+a:link{
+	text-decoration: none;
+	color: #03c;
+}
+a:visited{
+	text-decoration: none;
+	color: #03c;
+}
+a:hover{
+	text-decoration: underline;
+	color: #003;
+}
+#topo{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 700px;
+	background: #006;
+	margin: 0;
+	padding: 0;
+	color:white;
+}
+#menu{
+	position: absolute;
+	top: 97px;
+	left: 10px;
+	width: 700px;
+	height: 20px;
+	background: #006;
+	text-align: center;
+	margin: 0;
+	padding: 3px 0 3px 0;
+	color:white;
+}
+#divLogin{
+	position: absolute;
+	top: 130px;
+	left: 327px;
+	width: 180px;
+	height: 130px;
+	margin: 0;
+	padding: 5px;
+	background: #ccc;
+	z-index: 1;
+	border: outset 4px #006;
+}
+#menu a{
+	color: #fff;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu ul li{
+	margin: 10px;
+	padding: 2px;
+	display: inline;
+}
+#divLogin .btFechar{
+	position: relative;
+	top: 0;
+	left: 90%;
+	font-size: 14px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0;
+}
+#divLogin ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#divLogin ul li{
+	margin: 1px;
+	padding: 1px;
+	text-align: center;
+}
+#conteudo{
+	position: relative;
+	top: 130px;
+	left: 10px;
+	width: 680px;
+	margin: 0;
+	padding: 5px;
+}

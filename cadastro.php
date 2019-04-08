@@ -20,13 +20,23 @@ session_start();
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <nav class="navbar navbar-expand-lg navbar-light "style="background-color: #cce2d3;">
-    <a class="navbar-brand" href="index.php">
-      <img src="img/97d4253d79a9e59f19df904136673fc9---cone-de-flor-de-orqu--dea-by-vexels.png" width="30" height="30" alt="">
-    </a>
-    <a class="navbar-brand" href="index.php">Nilton Orquídeas</a>
+    <script src="js/jquery.validate.min.js"></script>
+
+
+
+    <div class="headder">
+  <div class="container-fluid">
+    
+<div>
+      <h2 style="margin:0;text-align:center;font: 400 90px/1.3 'Oleo Script', Helvetica, sans-serif; color: #2b2b2b;text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.22);">Nilton Orquídeas</h2>
+    </div>
+  </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light "style="background-color: #13b547;">
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,7 +47,7 @@ session_start();
           <a class="nav-link h5 mb-0" href="index.php"><i class="fas fa-home"></i> Home</a>
         </li>
       <li class="nav-item">
-          <a class="nav-link h5 mb-0" href="loja.php"><i class="fas fa-shopping-cart"></i> Loja</a>
+          <a class="nav-link h5 mb-0" href="loja.php"><i class="fas fa-shopping-bag"></i> Loja</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link h5 mb-0" href="cadastro.php"><i class="fas fa-sign-out-alt"></i> Cadastro</a>

@@ -76,15 +76,26 @@ mysqli_close($conexao);
         </nav>
       <div class="container">
           <?php
-          if($linhas == 1){
+          if($linhas == 1):
                 echo "Você foi cadastrado com sucesso<br>";
-                header("Refresh: 3;url=login.php");
-            }else{
-              echo "Houve um erro no cadastro<br>";
-              echo "Tente novamente com dados corretos";
-              header("Refresh: 3;url=cadastro.php");
-          }
-          ?>
+                header("Refresh: 3;url=login.php");?>
+
+                <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+                <?php
+                  endif;
+                ?>
+            <?php
+          if($linhas == 0):
+                echo "Você Não foi cadastrado com sucesso<br>";
+                header("Refresh: 3;url=login.php");?>
+                <div class="spinner-border text-primary" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+                <?php
+                  endif;
+                ?>
 </div>
     </body>
 </html>

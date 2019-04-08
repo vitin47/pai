@@ -1,97 +1,228 @@
+*{
+    padding: 0;
+}
 body{
-    background-color: #333333;
-}
-.footer{
-    font-size: 80px;
-    color: white;
+    background-color: #ffffff;
 
-   position:absolute;
-    bottom:2;
-    background-color: #333333;
-    width:100%;
 }
-.diev{
-    padding: 20px;
+.headder{
+    background-color: #ffffff;
+    width: 100%;
 }
+.foto{
+    margin-left: 0%;
+}
+
+
+
 .tudap{
-    position:static;
-
+    padding: 3%;
     background-color: #5c5cb5;
 }
-#div2{
-    color: #c0c8ce;
-	font-style:normal;
-    font-size: 20px;
-    font-family: 'Lobster', cursive;
-}
-#icons{
-text-align: center;
-color: white;
-    font-size: 40px;
-}
 
 
-#elo{
-
-    width: 10%;
-    text-align: center;
-    margin-left: 10%;
+.teste2{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+    margin-top: 0px;
+    
+    background-color: #333333;
 }
 
-.logos{
-    border-radius: 50px;
 
-    margin-top: 8%;
+.linha1{
     width: 100%;
-    height: 100px;
-    background-color: #2f83ba;
-     line-height: 100px;
+    background-color: rgb(60, 133, 232);
+    margin-top: 20px;
+    height: 5px;
 }
 .linha{
-width: 100%;
+    width: 100%;
+    background-color: rgb(60, 133, 232);
     height: 5px;
-    background-color: #2f83ba;
-}.site{
-    text-align: center;
+}
+.teste22{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+    margin-top: 0px;
+    
     background-color: #333333;
-}#t{
+}
+.anuncio{
+    width: 10%;
+    border:10px;
+    border-style: solid;
+    background-color: black;
+}
+
+#conteudo_texto{
+width: 100%;
+background-color: rgba(19, 128, 52, 0.82);
+  padding: 15px;
+}
+
+#conteudo_texto p{
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+#conteudo_texto .video{
+margin-right: 15px;
+  float: left;
+}
+#conteudo_texto .video2{
+margin-right: 15px;
+  float: right;
+}
+
+
+
+.texto {
+    font-size: 17px;
+    color: white;
     padding: 10px;
+}
+
+.bandeiras img{
+    padding: 0%;
+    margin-left: 2%;
+    width: 20%;
+}
+
+
+#pagamento{
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 5%;
+}
+.tudo_linha{
+    width: 100%;
+    padding: 5px;
+    background-color: #333333;
+}
+#logo_imagem{
+    width: 100%;
+    margin-left: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+.projects-section {
+  padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
     width: 30%;
+  }
 }
-h4{
-    text-align:center;
+
+.signup-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
+
+.signup-section .form-inline input {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
 .contact-section {
-  padding: 3%;
+  padding: 5rem 0 0;
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #2f83ba;
+  border-bottom: 0.25rem solid #64a19d;
 }
+
 .contact-section .card h4 {
-   font-size: 15px;
+  font-size: 0.8rem;
   font-family: 'Varela Round';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
-
 .contact-section .card hr {
-  border-color: #2f83ba;
+  border-color: #64a19d;
   border-width: 0.25rem;
-  width: 30%;
-}
-.contact-section .social {
-  margin-top: 4%;
+  width: 3rem;
 }
 
+.contact-section .social {
+  margin-top: 5rem;
+}
 
 .contact-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.21);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
@@ -104,3 +235,167 @@ h4{
 .contact-section .social a:active {
   color: #fff;
 }
+
+
+a {
+  color: #64a19d;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #3c6360;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #64a19d !important;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#botao_carrinho{
+    margin-top: 3%;
+	color:white;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	text-align: center;
+	width: 80%;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border:none;
+	height: 40px;
+	background-color: rgba(32, 125, 234, 0.92);
+    font-size: 100%;
+}
+#botao_disable{
+	color:white;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	text-align: center;
+	width: 80%;
+	border:none;
+	border-radius: 5px;
+	height: 50px;
+	background-color: rgba(32, 125, 234, 0.92);
+    font-size: 75%;}
+.footer{
+	height: 35px;
+	text-align: center;
+	border-top:1px solid;
+	border-color: #7b7b7b;
+
+}.cartao{
+    width: 70%;
+    margin-left: 60px;
+    background-color: rgba(255, 255, 255, 0.92);
+    border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border:1px solid;
+	border-color: #ffffff;
+}.textp{
+	font-family: arial;
+	font-size: 19px;
+	color:rgba(108, 104, 104, 0.86);
+}
+.butaum{
+	color: white;
+	border-radius: 5px;
+	width: 50%;
+	background-color: blue;
+}
+.tabela{	
+    
+    margin-bottom: 10%;
+	width: 100%;
+	background-color: rgba(248, 0, 0, 0);
+
+}
+
+.teste2{
+
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#quantidade{
+    width: 80%;
+    margin-left: 10%;
+}
+#tudo_prod{
+    margin-top: 2%;
+}
+.produtos{
+    padding: 5px;
+}
+.produtos h5{
+    margin-top: 3%;
+    text-decoration: underline;
+    text-align: center;
+}
+.produtos p{
+    color: green;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

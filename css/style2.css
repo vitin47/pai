@@ -1,5 +1,9 @@
 body{
     background-image: url(../img/wpPwz4NsD.jpg);
+    background-size: 100%;}
+.headder{
+    background-color: #ffffff;
+    width: 100%;
 }
 .container{
     padding: 15px;
